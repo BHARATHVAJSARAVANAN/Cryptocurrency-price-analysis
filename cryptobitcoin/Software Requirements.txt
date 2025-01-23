@@ -1,0 +1,22 @@
+Software Requirements
+Frontend: HTML, CSS, JavaScript
+Backend: Django (Python framework)
+Machine Learning Models: LSTM (Long Short-Term Memory) and ANN (Artificial Neural Networks) for price predictions
+Datasets Used: Bitcoin, Ethereum, Litecoin, Ripple
+
+Home Page Sections: About, Contact Us, How It Works, Our Features, Our Untold Story
+Technologies Used: HTML for structure, CSS for styling, JavaScript for interactive elements, and Django for backend logic.
+
+Admin Section Pages: AdminHome, AdminBlock, AgentsList, UsersList, CryptoRateCurrency
+Technologies Used: HTML for layout, CSS for design, JavaScript for data visualization (if applicable), and Django for user and database management.
+
+Agents Section Pages: AgentPage, AgentBuyed, AgentBuyCrypto, AgentBlock, AgentSignup, Prediction, BuyCurrencyByAgent
+Technologies Used: HTML and CSS for page development, JavaScript for enhanced interactions, and Django to handle transactions, predictions, and agent-specific functionality.
+
+Users Section Pages: PredictTest, UserBase, UserBuyed, UserBuyedTransaction, UserPage, UserSignup, UserTrading
+Technologies Used: HTML and CSS for UI, JavaScript for interactivity, and Django to manage user profiles, trading operations, and prediction modules.
+
+Machine Learning Integration in prediction page
+LSTM and ANN models to analyze cryptocurrency datasets (Bitcoin, Ethereum, Litecoin, Ripple) and predict price trends. These predictions are displayed as interactive graphs, providing users with actionable insights for informed decision-making.
+
+BitBank seamlessly combines advanced AI with user-friendly interfaces to redefine cryptocurrency analysis and management.

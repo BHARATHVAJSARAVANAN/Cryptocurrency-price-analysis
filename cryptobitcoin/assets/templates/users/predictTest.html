@@ -1,0 +1,39 @@
+{%extends 'users/userbase.html'%}
+{%load static%}
+{%block contents%}
+<section class="hero-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+
+			</div>
+			<div class="col-md-12" >
+				<div class="block" style="text-align:center;">
+					<h2>Available Dataset for Predict test</h2>
+                    <table bgcolor="" border="2px" style="padding: 2px; text-align:center; margin-left: 30%;" >
+                        <!-- <tr> -->
+                        <tr style="color: yellow" style="margin: 50px;">
+                            <th>S.No</th>
+                            <th>Dataset</th>
+                            <th>Predict Test Start</th>
+                            <th>Predict Test End</th>
+                        </tr>
+                        {% for key,value in dict.items %}
+                        <tr>
+                            <td>{{forloop.counter}}</td>
+                            <td>{{value}}</td>
+                            <td><a href="{% url 'UserPredictTestProcess' value%}" class="btn btn-primary">Start Test</a> </td>
+                            <td><a href="{% url 'UserPredictionTest'%}" class="btn btn-primary">End Test</a> </td>
+                        </tr>
+
+                        {%endfor%}
+
+                        </table>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+{%endblock%}
